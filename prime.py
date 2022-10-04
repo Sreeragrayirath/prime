@@ -5,7 +5,7 @@ n = 9
 
 flag = 0
 
-if(n  1):
+if(n > 1):
 	for k in range(2, int(sqrt(n)) + 1):
 		if (n % k == 0):
 			flag = 1
